@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Analyze exceptions, php and PEAR errors visually
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,7 +16,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear >= 4:1.0-15
 Requires:	php-pear-Gtk2_VarDump >= 0.2.0
-Requires:	php-pear-PEAR >= 1:1.4.8
+Requires:	php-pear-PEAR-core >= 1:1.4.8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
