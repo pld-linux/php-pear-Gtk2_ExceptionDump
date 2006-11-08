@@ -16,7 +16,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear >= 4:1.0-15
 Requires:	php-pear-Gtk2_VarDump >= 0.2.0
-Requires:	php-pear-PEAR >= 1:1.4.-0.8
+Requires:	php-pear-PEAR >= 1:1.4.8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
