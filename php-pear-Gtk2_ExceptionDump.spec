@@ -28,20 +28,6 @@ string representation of the exception to clipboard is also supported.
 
 In PEAR status of this package is: %{_status}.
 
-%package tests
-Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
-Group:		Development
-Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
-AutoProv:	no
-
-%description tests
-Tests for PEAR::%{_pearname}.
-
-%description tests -l pl
-Testy dla PEAR::%{_pearname}.
-
 %prep
 %pear_package_setup
 
