@@ -4,6 +4,7 @@
 %define		_status		beta
 %define		_pearname	Gtk2_ExceptionDump
 Summary:	%{_pearname} - Analyze exceptions, php and PEAR errors visually
+Summary(pl):	%{_pearname} - wizualna analiza wyj±tków oraz b³êdów php i PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	3
@@ -21,12 +22,21 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Displays Exceptions, PHP Erros and PEAR_Error objects in a nice and
+Displays Exceptions, PHP Errors and PEAR_Error objects in a nice and
 clean way. It also allows to inspect parameters passed to methods and
 to drag and drop the files causing the error to any editor. Copying a
 string representation of the exception to clipboard is also supported.
 
 In PEAR status of this package is: %{_status}.
+
+%description -l pl
+Ta klasa wy¶wietla wyj±tki, b³êdy PHP i obiekty PEAR_Error w ³adny i
+przejrzysty sposób. Pozwala tak¿e obejrzeæ parametry przekazane
+metodom i przeci±gaæ pliki powoduj±ce b³êdy do dowolnego edytora.
+Obs³ugiwane jest tak¿e kopiowanie do schowka reprezentacji znakowej
+wyj±tku.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %pear_package_setup
