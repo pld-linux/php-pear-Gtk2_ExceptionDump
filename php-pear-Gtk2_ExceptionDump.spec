@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Gtk2_ExceptionDump
 Summary:	%{_pearname} - Analyze exceptions, php and PEAR errors visually
-Summary(pl.UTF-8):   %{_pearname} - wizualna analiza wyjątków oraz błędów php i PEAR-a
+Summary(pl.UTF-8):	%{_pearname} - wizualna analiza wyjątków oraz błędów php i PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	3
