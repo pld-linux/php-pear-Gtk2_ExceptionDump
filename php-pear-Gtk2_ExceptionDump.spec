@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Gtk2
 %define		_subclass	ExceptionDump
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	Gtk2_ExceptionDump
 Summary:	%{_pearname} - Analyze exceptions, php and PEAR errors visually
 Summary(pl):	%{_pearname} - wizualna analiza wyj±tków oraz b³êdów php i PEAR-a
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
-Release:	3
+Version:	1.0.0
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	472d43e96c10ccacae3a306095711d61
+# Source0-md5:	ea1d93031f095c1359f92cb454136c9a
 URL:		http://pear.php.net/package/Gtk2_ExceptionDump/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
