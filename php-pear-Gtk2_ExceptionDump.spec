@@ -7,17 +7,19 @@ Summary:	%{_pearname} - Analyze exceptions, php and PEAR errors visually
 Summary(pl.UTF-8):	%{_pearname} - wizualna analiza wyjątków oraz błędów php i PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	e1aa6e642374d6f6dc4533f6d26881c5
 URL:		http://pear.php.net/package/Gtk2_ExceptionDump/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.8
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear >= 4:1.0-15
 Requires:	php-pear-Gtk2_VarDump >= 0.2.0
+Requires:	php-pear-Gtk2_VarDump >= 1.0.0
 Requires:	php-pear-PEAR-core >= 1:1.4.8
+Requires:	php-gtk2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
