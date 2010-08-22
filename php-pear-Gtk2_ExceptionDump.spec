@@ -15,6 +15,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Gtk2_ExceptionDump/
 BuildRequires:	php-pear-PEAR >= 1:1.4.8
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear >= 4:1.0-15
 Requires:	php-pear-Gtk2_VarDump >= 0.2.0
 Requires:	php-pear-Gtk2_VarDump >= 1.0.0
