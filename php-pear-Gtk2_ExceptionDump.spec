@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Gtk2
 %define		_subclass	ExceptionDump
 %define		_status		stable
